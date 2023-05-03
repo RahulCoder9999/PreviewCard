@@ -1,0 +1,97 @@
+.b{
+	display: absolute;
+	padding: 220px;
+
+}
+.mainCard{
+	display:grid;
+	grid-template-columns:279px 279px 279px ;
+
+}
+
+.column{
+	display:flex;
+	flex-direction: column;
+	color: hsla(0, 0%, 100%, 0.75);
+	line-height: 20pt;
+	font-family:Lexend Deca;
+	font-size: 15px;
+	justify-content: space-between;
+	align-items: center;
+	height: 475px;
+  
+}
+.pic{
+	position:relative;
+	left:-55px;
+	top:30px	
+}
+#pic1{
+	left:-65px;
+}
+#pic2{
+	left:-69px;
+}
+#pic3{
+	left:-77px;
+}
+.Big{
+	position: relative;
+	top:30px;
+	color:hsl(0, 0%, 95%);
+	font-family: 'Big Shoulders Display';
+	font-size:40px;
+	font-weight: 600;
+	left: -55px;	
+}
+#B2{
+ left: -73px;
+}
+#B3{
+ left: -64px;
+}
+.p{
+	position: relative;
+	margin:34px;
+	
+}
+.capsule{
+	position: relative;
+	bottom:12px;
+	height:40px;
+	display:flex;
+	justify-content: center;
+	align-items: center;
+	width:120px;
+	border-radius: 500px;
+	margin-top: 30px;
+	left:-45px;
+	bottom:40px;
+	background-color:hsl(0, 0%, 95%);
+	
+}
+#col1{
+	background-color:hsl(31, 77%, 52%);
+	border-radius: 7px 0px 0px 7px;
+}
+#col2{
+	background-color:hsl(184, 100%, 22%);
+}
+#col3{
+	background-color:hsl(179, 100%, 13%);
+	border-radius: 0px 7px 7px 0px;
+}
+
+#c1{
+color:hsl(31, 77%, 52%);
+font-size:13px;
+}
+#c2{
+color:hsl(184, 100%, 22%);
+font-size:13px;
+}
+#c3{
+color:hsl(179, 100%, 13%);
+font-size:13px;
+}
+
